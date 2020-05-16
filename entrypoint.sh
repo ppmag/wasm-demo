@@ -2,10 +2,12 @@
 
 cd /root/src/hello
 
+service nginx restart
+
 while :
 do
     ./build.sh
-    service nginx restart
+    
 
     sleep 5
 done

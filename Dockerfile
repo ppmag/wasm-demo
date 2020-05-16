@@ -73,8 +73,8 @@ RUN apt-get install nginx -y
 COPY nginx.conf /etc/nginx/nginx.conf
 RUN sudo nginx -t
 
-EXPOSE 80
-
+EXPOSE  80
+ 
 COPY entrypoint.sh /root/entrypoint.sh
 ENTRYPOINT ["/root/entrypoint.sh"]
 
