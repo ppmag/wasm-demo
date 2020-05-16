@@ -3,7 +3,7 @@ Collection of assorted WebAssembly test &amp; experiments
 
 ## Demo list
 
-1. hello - Libsodium integration in hash test
+1. hello - Libsodium integration and hash test
 
 ----
 
