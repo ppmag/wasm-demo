@@ -21,8 +21,9 @@ docker-compose up
 
 ## Usage
 
-Open in browser [http:/127.0.0.1](http:/127.0.0.1) and navigate to required demo.
+Open in browser [http://127.0.0.1](http:/127.0.0.1) and navigate to required demo.
 Please note, you can update source code in `./src`, and it will be recompiled on the fly inside the container.
-What is required to see updates is just to refresh your browser page!
+
+**What is required to see updates is to refresh your browser page!**
 
 Demo html page source with JS and Wasm files also are available in `./html` (updated dynamically!)
